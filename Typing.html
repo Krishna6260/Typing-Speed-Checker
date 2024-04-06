@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="Typing.css">
+</head>
+
+<body>
+    <div>
+        <h1>TYPING TEST</h1>
+    </div>
+    <div style="position: absolute; top: 5%; left: 30%; filter: grayscale(10%); width: 11%;" class="type-image"><img
+            class="imga" src="./type.png" width="100%"></div>
+
+    <div class="main">
+        <div class="para">
+            <p>The quick brown fox jumped over the lazy dog who was barking loudly near the old oak tree. Birds chirped
+                in the clear blue sky as a gentle breeze rustled the leaves. A colorful butterfly fluttered by, catching
+                the attention of a curious child. They ran through the grass, chasing the butterfly with glee.
+                Meanwhile, a squirrel scurried up the tree trunk, its bushy tail twitching with excitement. The sun cast
+                long shadows as the day unfolded its vibrant tapestry of life.</p>
+        </div>
+        <div class="timer">60 sec</div>
+        <div style="margin-bottom: 10px;"><img src="./clock.png" width="40px"></div>
+        <div><input type="text" onclick="change()" disabled></div>
+        <div class="btn"><button onclick="startTest()">Start</button></div>
+        <div class="result"><span>Your typing speed is <span class="sco"></span></span></div>
+        <div style="margin-top: 2%;"><span class="wrong"></span></div>
+    </div>
+
+    <script src="Typing.js">
+        
+    </script>
+</body>
+
+</html>
