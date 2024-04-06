@@ -143,5 +143,6 @@ span {
     }
     .result{
         text-align: center;
+        font-size: 16px;
     }
 }
