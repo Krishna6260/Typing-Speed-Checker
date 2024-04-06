@@ -122,11 +122,11 @@ span {
         font-size: 22px;
     }
 
-    p {
+/*     p {
         font-size: 12px;
-    }
+    } */
     .para {
-    font-size: 22px;
+    font-size: 12px;
     word-spacing: 3px;
     margin-bottom: 5px;
     background-color: rgb(219, 219, 219);
